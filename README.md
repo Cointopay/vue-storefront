@@ -6,7 +6,7 @@
 $ git clone git@github.com:Cointopay/vue-storefront.git ./vue-storefront/src/modules/payment-cointopay
 ```
 
-Registration the Cointopay module. Go to ./src/modules/client.ts
+Register the Cointopay module. Go to ./src/modules/client.ts
 
 ```js
 ...
@@ -98,7 +98,7 @@ export default {
 ```js
 export default {
   computed: {
-	...mapState({
+    ...mapState({
 	  ...,
 	  transaction: state => state.cointopay.transaction
 	}
