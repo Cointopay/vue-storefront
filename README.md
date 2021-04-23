@@ -36,6 +36,11 @@ Add the endpoint to your config
     "endpoint": "http://localhost:8080/api/ext/cointopay"
   },
 ```
+
+### Dependencies
+"moment": "^2.24.0",
+"moment-timezone": "^0.5.32"
+
 ## Cointopay payment API extension
 
 Install additional extension for `vue-storefront-api`:
@@ -111,5 +116,3 @@ And add the following code, where you see fit.
 ```html
 <payment-cointopay-transaction v-if="transaction"/>
 ````
-
-
